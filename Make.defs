@@ -1,0 +1,3 @@
+ifeq ($(CONFIG_EXAMPLES_WMCTRL),y)
+CONFIGURED_APPS += $(APPDIR)/examples/wmctrl
+endif

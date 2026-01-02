@@ -1,0 +1,23 @@
+config EXAMPLES_WMCTRL
+	bool "Washing machine controller (wmctrl)"
+	default n
+	depends on NSH_LIBRARY
+	help
+		NUCLEO-G431RB washing machine controller demo.
+
+if EXAMPLES_WMCTRL
+
+config EXAMPLES_WMCTRL_PROGNAME
+	string "Program name"
+	default "wmctrl"
+
+config EXAMPLES_WMCTRL_PRIORITY
+	int "Priority"
+	default 100
+
+config EXAMPLES_WMCTRL_STACKSIZE
+	int "Stack size"
+	default 4096
+
+endif
+

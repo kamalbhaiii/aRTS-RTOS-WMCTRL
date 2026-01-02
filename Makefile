@@ -1,0 +1,9 @@
+include $(APPDIR)/Make.defs
+
+PROGNAME  = $(CONFIG_EXAMPLES_WMCTRL_PROGNAME)
+PRIORITY  = $(CONFIG_EXAMPLES_WMCTRL_PRIORITY)
+STACKSIZE = $(CONFIG_EXAMPLES_WMCTRL_STACKSIZE)
+
+MAINSRC = wmctrl_main.c wmctrl_hw.c wmctrl_lcd.c
+
+include $(APPDIR)/Application.mk
