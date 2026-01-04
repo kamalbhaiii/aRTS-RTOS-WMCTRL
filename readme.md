@@ -271,12 +271,12 @@ NuttX can be configured with very few file descriptors. To stay safe:
 Contributions welcome. Please follow NuttX coding guidelines and keep FD usage constraints in mind. If you add new peripherals, ensure GPIO minors are properly registered and keep the 16x2 LCD formatting within 16 columns.
 
 ## Team
-- Member 1: [Name], [Role]
-- Member 2: [Name], [Role]
-- Member 3: [Name], [Role]
+- Member 1: Kamal Sharma, [1541791]
+- Member 2: Varshitha Ramamurthy, [1542037]
+- Member 3: Fasla Puthiyaveettil Abdul Kader, [1542036]
 
 ## Acknowledgement
-Thanks to Professor [Name] for guidance, feedback, and support throughout this project.
+Thanks to Professor Matthias Deegener and Frankfurt University of Applied Sciences for guidance, feedback, and support throughout this project.
 
 ## License
 Apache License 2.0 (see LICENSE file).
